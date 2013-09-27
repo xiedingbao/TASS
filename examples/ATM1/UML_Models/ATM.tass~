@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><TASS><Constraints>0&lt;=b1-a2&lt;=2&#13;
+0&lt;=c2-b1&lt;=4&#13;
+5&lt;=d2-b1&lt;=60&#13;
+10&lt;=e1-d3&lt;=10&#13;
+0&lt;=f2-d3&lt;=10&#13;
+0&lt;=g2-d3&lt;=10&#13;
+0&lt;=n2-d3&lt;=10&#13;
+0&lt;=b1-g3&lt;=2&#13;
+0&lt;=j2-h7&lt;=10 &#13;
+0&lt;=k2-h7&lt;=10&#13;
+3&lt;=l1-n3&lt;=5&#13;
+0&lt;=j4-h5&lt;=9&#13;
+0&lt;=k4-h5&lt;=9&#13;
+</Constraints><CommunicationTime>ATM-User=1&#13;
+ATM-Bank=2</CommunicationTime></TASS>

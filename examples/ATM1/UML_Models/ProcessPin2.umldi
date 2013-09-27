@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_FjDzwEnHEd62-9L5ci3lyA" activeDiagram="_FjEa0EnHEd62-9L5ci3lyA">
+  <model href="ProcessPin2.uml#idInteraction"/>
+  <diagrams xmi:id="_FjEa0EnHEd62-9L5ci3lyA" position="0,0" size="100,100" name="ProcessPin2" viewport="0,0">
+    <property xmi:id="_FjlYMEnHEd62-9L5ci3lyA" key="pageFormatName" value="A4"/>
+    <property xmi:id="_FjlYMUnHEd62-9L5ci3lyA" key="diagramWidth" value="840"/>
+    <property xmi:id="_FjlYMknHEd62-9L5ci3lyA" key="diagramHeight" value="1188"/>
+    <property xmi:id="_FjlYM0nHEd62-9L5ci3lyA" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_FjlYNEnHEd62-9L5ci3lyA" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_FjlYNUnHEd62-9L5ci3lyA" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_FjlYNknHEd62-9L5ci3lyA" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_FjlYN0nHEd62-9L5ci3lyA" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_FjlYOEnHEd62-9L5ci3lyA" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FjEa0UnHEd62-9L5ci3lyA" presentation="cn.edu.nju.seg.jasmine.sequencediagram">
+      <element href="ProcessPin2.uml#idInteraction"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_I3Be4EnHEd62-9L5ci3lyA" position="40,40" size="100,300">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_I3Be4UnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_I3CtAEnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_Nfp24EnHEd62-9L5ci3lyA" position="40,25" size="20,50">
+        <anchorage xmi:id="_OrHkcEnHEd62-9L5ci3lyA" position="13,14" graphEdge="_OrJZoEnHEd62-9L5ci3lyA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Nfp24UnHEd62-9L5ci3lyA" presentation="default">
+          <element href="ProcessPin2.uml#_NfrFAEnHEd62-9L5ci3lyA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_TgHkgEnHEd62-9L5ci3lyA" position="40,156" size="20,50">
+        <anchorage xmi:id="_T0l_sEnHEd62-9L5ci3lyA" position="13,22" graphEdge="_T0mmwEnHEd62-9L5ci3lyA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_TgHkgUnHEd62-9L5ci3lyA" presentation="default">
+          <element href="ProcessPin2.uml#_TgJZsEnHEd62-9L5ci3lyA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_JjWZYEnHEd62-9L5ci3lyA" position="176,40" size="100,300">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_JjWZYUnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_JjXngEnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_ORPr4EnHEd62-9L5ci3lyA" position="40,25" size="20,50">
+        <anchorage xmi:id="_OrIykEnHEd62-9L5ci3lyA" position="7,14" graphEdge="_OrJZoEnHEd62-9L5ci3lyA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ORPr4UnHEd62-9L5ci3lyA" presentation="default">
+          <element href="ProcessPin2.uml#_ORQ6AEnHEd62-9L5ci3lyA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_QeK2cEnHEd62-9L5ci3lyA" position="40,91" size="20,50">
+        <anchorage xmi:id="_RFPdgEnHEd62-9L5ci3lyA" position="14,22" graphEdge="_RFQroUnHEd62-9L5ci3lyA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_QeK2cUnHEd62-9L5ci3lyA" presentation="default">
+          <element href="ProcessPin2.uml#_QeMEkEnHEd62-9L5ci3lyA"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_TJE9gEnHEd62-9L5ci3lyA" position="40,159" size="20,50">
+        <anchorage xmi:id="_T0kxkEnHEd62-9L5ci3lyA" position="13,19" graphEdge="_T0mmwEnHEd62-9L5ci3lyA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_TJE9gUnHEd62-9L5ci3lyA" presentation="default">
+          <element href="ProcessPin2.uml#_TJGLoEnHEd62-9L5ci3lyA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_KfKhYEnHEd62-9L5ci3lyA" position="324,40" size="100,300">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KfKhYUnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_KfLvgEnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_QvLt8EnHEd62-9L5ci3lyA" position="40,93" size="20,50">
+        <anchorage xmi:id="_RFQroEnHEd62-9L5ci3lyA" position="10,20" graphEdge="_RFQroUnHEd62-9L5ci3lyA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_QvLt8UnHEd62-9L5ci3lyA" presentation="default">
+          <element href="ProcessPin2.uml#_QvM8EEnHEd62-9L5ci3lyA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_OrJZoEnHEd62-9L5ci3lyA" anchor="_OrHkcEnHEd62-9L5ci3lyA _OrIykEnHEd62-9L5ci3lyA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_OrJZoUnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_OrLO0UnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_OrJZoknHEd62-9L5ci3lyA" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_RFQroUnHEd62-9L5ci3lyA" anchor="_RFPdgEnHEd62-9L5ci3lyA _RFQroEnHEd62-9L5ci3lyA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_RFRSsEnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_RFTH4EnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_RFRSsUnHEd62-9L5ci3lyA" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_T0mmwEnHEd62-9L5ci3lyA" anchor="_T0kxkEnHEd62-9L5ci3lyA _T0l_sEnHEd62-9L5ci3lyA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_T0mmwUnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_T0ob8UnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_T0mmwknHEd62-9L5ci3lyA" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_WSbUEEnHEd62-9L5ci3lyA" position="46,95" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_WSbUEUnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_WSciMEnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_WvpbkEnHEd62-9L5ci3lyA" position="224,97" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_WvpbkUnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_WvqpsEnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_XLHPkEnHEd62-9L5ci3lyA" position="177,168" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_XLHPkUnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_XLIdsEnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_XkcVkEnHEd62-9L5ci3lyA" position="372,172" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_XkcVkUnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_Xkc8oEnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_X9PQEEnHEd62-9L5ci3lyA" position="224,237" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_X9PQEUnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_X9QeMEnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_YTcJkEnHEd62-9L5ci3lyA" position="44,233" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_YTcJkUnHEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_YTcwoEnHEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_pI4ngEuaEd62-9L5ci3lyA" position="44,301" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_pI4ngUuaEd62-9L5ci3lyA" presentation="default">
+        <element href="ProcessPin2.uml#_pI51oEuaEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+  </diagrams>
+</diagrams:Diagrams>

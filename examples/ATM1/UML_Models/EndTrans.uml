@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="idModel" name="EndTransModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="idPackage" name="EndTransPackage">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="idCollaboration" name="EndTransCollaboration">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="idInteraction" name="EndTrans">
+        <ownedComment xmi:id="_wcu9cEnKEd62-9L5ci3lyA">
+          <body>2&lt;=wm-m3&lt;=3</body>
+        </ownedComment>
+        <lifeline xmi:id="_FumbkEmqEd62-9L5ci3lyA" name="User" coveredBy="_RA6dUEmqEd62-9L5ci3lyA _TZ01cEmqEd62-9L5ci3lyA _Ot88MEmqEd62-9L5ci3lyA _PW2vQEmqEd62-9L5ci3lyA"/>
+        <lifeline xmi:id="_JyxboEmqEd62-9L5ci3lyA" name="ATM" coveredBy="_RA7EYEmqEd62-9L5ci3lyA _TZ0OYEmqEd62-9L5ci3lyA _PBQSsEmqEd62-9L5ci3lyA _PsXsQEmqEd62-9L5ci3lyA"/>
+        <lifeline xmi:id="_K2wBIEmqEd62-9L5ci3lyA" name="Bank"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RA6dUEmqEd62-9L5ci3lyA" name="MessageOccurrenceSpecification1" covered="_FumbkEmqEd62-9L5ci3lyA" event="_RA7rcEmqEd62-9L5ci3lyA" message="_RA7rcUmqEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RA7EYEmqEd62-9L5ci3lyA" name="MessageOccurrenceSpecification2" covered="_JyxboEmqEd62-9L5ci3lyA" event="_RA7rcEmqEd62-9L5ci3lyA" message="_RA7rcUmqEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TZ0OYEmqEd62-9L5ci3lyA" name="MessageOccurrenceSpecification3" covered="_JyxboEmqEd62-9L5ci3lyA" event="_TZ1cgEmqEd62-9L5ci3lyA" message="_TZ1cgUmqEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TZ01cEmqEd62-9L5ci3lyA" name="MessageOccurrenceSpecification4" covered="_FumbkEmqEd62-9L5ci3lyA" event="_TZ1cgEmqEd62-9L5ci3lyA" message="_TZ1cgUmqEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Ot88MEmqEd62-9L5ci3lyA" name="BehaviorExecutionSpecification1" covered="_FumbkEmqEd62-9L5ci3lyA" start="_RA6dUEmqEd62-9L5ci3lyA" finish="_RA6dUEmqEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_PBQSsEmqEd62-9L5ci3lyA" name="BehaviorExecutionSpecification2" covered="_JyxboEmqEd62-9L5ci3lyA" start="_RA7EYEmqEd62-9L5ci3lyA" finish="_RA7EYEmqEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_PW2vQEmqEd62-9L5ci3lyA" name="BehaviorExecutionSpecification3" covered="_FumbkEmqEd62-9L5ci3lyA" start="_TZ01cEmqEd62-9L5ci3lyA" finish="_TZ01cEmqEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_PsXsQEmqEd62-9L5ci3lyA" name="BehaviorExecutionSpecification4" covered="_JyxboEmqEd62-9L5ci3lyA" start="_TZ0OYEmqEd62-9L5ci3lyA" finish="_TZ0OYEmqEd62-9L5ci3lyA"/>
+        <message xmi:id="_RA7rcUmqEd62-9L5ci3lyA" name="Cancel" receiveEvent="_RA7EYEmqEd62-9L5ci3lyA" sendEvent="_RA6dUEmqEd62-9L5ci3lyA"/>
+        <message xmi:id="_TZ1cgUmqEd62-9L5ci3lyA" name="Return_card" receiveEvent="_TZ01cEmqEd62-9L5ci3lyA" sendEvent="_TZ0OYEmqEd62-9L5ci3lyA"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_RA7rcEmqEd62-9L5ci3lyA" name="CallEvent1"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_TZ1cgEmqEd62-9L5ci3lyA" name="CallEvent2"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_WQNzwEmqEd62-9L5ci3lyA" name="m1" event="_RA7rcUmqEd62-9L5ci3lyA"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_W9dUQEmqEd62-9L5ci3lyA" name="m2" event="_RA7rcUmqEd62-9L5ci3lyA" firstEvent="false"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_YHA9UEmqEd62-9L5ci3lyA" name="m3" event="_TZ1cgUmqEd62-9L5ci3lyA"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_ZXu-UEmqEd62-9L5ci3lyA" name="m4" event="_TZ1cgUmqEd62-9L5ci3lyA" firstEvent="false"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_a9ECAEuaEd62-9L5ci3lyA" name="wm"/>
+  </packagedElement>
+</uml:Model>

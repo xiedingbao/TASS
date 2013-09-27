@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="idModel" name="EndTrans2Model">
+  <packagedElement xmi:type="uml:Package" xmi:id="idPackage" name="EndTrans2Package">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="idCollaboration" name="EndTrans2Collaboration">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="idInteraction" name="EndTrans2">
+        <ownedComment xmi:id="_xVzeAEnLEd62-9L5ci3lyA">
+          <body>2&lt;=wc-c3&lt;=3</body>
+        </ownedComment>
+        <lifeline xmi:id="_rhz0QEkJEd62-9L5ci3lyA" name="User" coveredBy="_FBYwg0kLEd62-9L5ci3lyA _HYjcMEkLEd62-9L5ci3lyA _Cm8uYEkLEd62-9L5ci3lyA _DscW0EkLEd62-9L5ci3lyA"/>
+        <lifeline xmi:id="_r989sEkJEd62-9L5ci3lyA" name="ATM" coveredBy="_FBZ-oEkLEd62-9L5ci3lyA _HYiOEEkLEd62-9L5ci3lyA _DFK7cEkLEd62-9L5ci3lyA _DbRHQEkLEd62-9L5ci3lyA"/>
+        <lifeline xmi:id="_sSUrMEkJEd62-9L5ci3lyA" name="Bank"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FBYwg0kLEd62-9L5ci3lyA" name="MessageOccurrenceSpecification1" covered="_rhz0QEkJEd62-9L5ci3lyA" event="_FBZ-oUkLEd62-9L5ci3lyA" message="_FBbMwEkLEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FBZ-oEkLEd62-9L5ci3lyA" name="MessageOccurrenceSpecification2" covered="_r989sEkJEd62-9L5ci3lyA" event="_FBZ-oUkLEd62-9L5ci3lyA" message="_FBbMwEkLEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HYiOEEkLEd62-9L5ci3lyA" name="MessageOccurrenceSpecification3" covered="_r989sEkJEd62-9L5ci3lyA" event="_HYkqUEkLEd62-9L5ci3lyA" message="_HYkqUUkLEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HYjcMEkLEd62-9L5ci3lyA" name="MessageOccurrenceSpecification4" covered="_rhz0QEkJEd62-9L5ci3lyA" event="_HYkqUEkLEd62-9L5ci3lyA" message="_HYkqUUkLEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Cm8uYEkLEd62-9L5ci3lyA" name="BehaviorExecutionSpecification1" covered="_rhz0QEkJEd62-9L5ci3lyA" start="_FBYwg0kLEd62-9L5ci3lyA" finish="_FBYwg0kLEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_DFK7cEkLEd62-9L5ci3lyA" name="BehaviorExecutionSpecification2" covered="_r989sEkJEd62-9L5ci3lyA" start="_FBZ-oEkLEd62-9L5ci3lyA" finish="_FBZ-oEkLEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_DbRHQEkLEd62-9L5ci3lyA" name="BehaviorExecutionSpecification3" covered="_r989sEkJEd62-9L5ci3lyA" start="_HYiOEEkLEd62-9L5ci3lyA" finish="_HYiOEEkLEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_DscW0EkLEd62-9L5ci3lyA" name="BehaviorExecutionSpecification4" covered="_rhz0QEkJEd62-9L5ci3lyA" start="_HYjcMEkLEd62-9L5ci3lyA" finish="_HYjcMEkLEd62-9L5ci3lyA"/>
+        <message xmi:id="_FBbMwEkLEd62-9L5ci3lyA" name="Cancel" receiveEvent="_FBZ-oEkLEd62-9L5ci3lyA" sendEvent="_FBYwg0kLEd62-9L5ci3lyA"/>
+        <message xmi:id="_HYkqUUkLEd62-9L5ci3lyA" name="Return_card" receiveEvent="_HYjcMEkLEd62-9L5ci3lyA" sendEvent="_HYiOEEkLEd62-9L5ci3lyA"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_FBZ-oUkLEd62-9L5ci3lyA" name="CallEvent1"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_HYkqUEkLEd62-9L5ci3lyA" name="CallEvent2"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_J86PUEkLEd62-9L5ci3lyA" name="c1" event="_FBbMwEkLEd62-9L5ci3lyA"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_K-2NcEkLEd62-9L5ci3lyA" name="c2" event="_FBbMwEkLEd62-9L5ci3lyA" firstEvent="false"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_L-VUgEkLEd62-9L5ci3lyA" name="c3" event="_HYkqUUkLEd62-9L5ci3lyA"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_MtzCkEkLEd62-9L5ci3lyA" name="c4" event="_HYkqUUkLEd62-9L5ci3lyA" firstEvent="false"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_dyuAgEuaEd62-9L5ci3lyA" name="wc"/>
+  </packagedElement>
+</uml:Model>

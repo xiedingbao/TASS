@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_rvTTUEktEd62-9L5ci3lyA" activeDiagram="_rvTTUUktEd62-9L5ci3lyA">
+  <model href="DispenseCash.uml#idInteraction"/>
+  <diagrams xmi:id="_rvTTUUktEd62-9L5ci3lyA" position="0,0" size="100,100" name="DispenseCash" viewport="0,80">
+    <property xmi:id="_rvcdQUktEd62-9L5ci3lyA" key="pageFormatName" value="A4"/>
+    <property xmi:id="_rvcdQkktEd62-9L5ci3lyA" key="diagramWidth" value="840"/>
+    <property xmi:id="_rvcdQ0ktEd62-9L5ci3lyA" key="diagramHeight" value="1188"/>
+    <property xmi:id="_rvcdREktEd62-9L5ci3lyA" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_rvcdRUktEd62-9L5ci3lyA" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_rvcdRkktEd62-9L5ci3lyA" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_rvcdR0ktEd62-9L5ci3lyA" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_rvcdSEktEd62-9L5ci3lyA" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_rvcdSUktEd62-9L5ci3lyA" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rvcdQEktEd62-9L5ci3lyA" presentation="cn.edu.nju.seg.jasmine.sequencediagram">
+      <element href="DispenseCash.uml#idInteraction"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_tZEtgEktEd62-9L5ci3lyA" position="27,40" size="100,425">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_tZEtgUktEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_tZEtgkktEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_zUTV0EktEd62-9L5ci3lyA" position="40,22" size="20,361">
+        <anchorage xmi:id="_K5KHQUkuEd62-9L5ci3lyA" position="9,57" graphEdge="_K5T4QEkuEd62-9L5ci3lyA"/>
+        <anchorage xmi:id="_RHkxUUkuEd62-9L5ci3lyA" position="17,196" graphEdge="_RHuiUEkuEd62-9L5ci3lyA"/>
+        <anchorage xmi:id="_TVW3gUkuEd62-9L5ci3lyA" position="5,240" graphEdge="_TVW3gkkuEd62-9L5ci3lyA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zUcfwEktEd62-9L5ci3lyA" presentation="default">
+          <element href="DispenseCash.uml#_zUcfwUktEd62-9L5ci3lyA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_uUvEgEktEd62-9L5ci3lyA" position="188,40" size="100,426">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_uUvEgUktEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_uUvEgkktEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_0KAOwEktEd62-9L5ci3lyA" position="40,22" size="20,364">
+        <anchorage xmi:id="_IVDy0UkuEd62-9L5ci3lyA" position="7,18" graphEdge="_IVDy0kkuEd62-9L5ci3lyA"/>
+        <anchorage xmi:id="_K5KHQEkuEd62-9L5ci3lyA" position="4,57" graphEdge="_K5T4QEkuEd62-9L5ci3lyA"/>
+        <anchorage xmi:id="_NKqP0EkuEd62-9L5ci3lyA" position="16,99" graphEdge="_NK0A0EkuEd62-9L5ci3lyA"/>
+        <anchorage xmi:id="_O5V_MEkuEd62-9L5ci3lyA" position="19,146" graphEdge="_O5V_MUkuEd62-9L5ci3lyA"/>
+        <anchorage xmi:id="_RHkxUEkuEd62-9L5ci3lyA" position="5,196" graphEdge="_RHuiUEkuEd62-9L5ci3lyA"/>
+        <anchorage xmi:id="_TVW3gEkuEd62-9L5ci3lyA" position="5,240" graphEdge="_TVW3gkkuEd62-9L5ci3lyA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_0KAOwUktEd62-9L5ci3lyA" presentation="default">
+          <element href="DispenseCash.uml#_0KAOwkktEd62-9L5ci3lyA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_xCpcQEktEd62-9L5ci3lyA" position="344,40" size="100,426">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_xCpcQUktEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_xCpcQkktEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_1XhKwEktEd62-9L5ci3lyA" position="40,26" size="20,359">
+        <anchorage xmi:id="_IVDy0EkuEd62-9L5ci3lyA" position="5,14" graphEdge="_IVDy0kkuEd62-9L5ci3lyA"/>
+        <anchorage xmi:id="_NKqP0UkuEd62-9L5ci3lyA" position="14,95" graphEdge="_NK0A0EkuEd62-9L5ci3lyA"/>
+        <anchorage xmi:id="_O5M1QEkuEd62-9L5ci3lyA" position="4,142" graphEdge="_O5V_MUkuEd62-9L5ci3lyA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_1XhKwUktEd62-9L5ci3lyA" presentation="default">
+          <element href="DispenseCash.uml#_1XhKwkktEd62-9L5ci3lyA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_IVDy0kkuEd62-9L5ci3lyA" anchor="_IVDy0EkuEd62-9L5ci3lyA _IVDy0UkuEd62-9L5ci3lyA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_IVNj0EkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_IVNj1UkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_IVNj0UkuEd62-9L5ci3lyA" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_K5T4QEkuEd62-9L5ci3lyA" anchor="_K5KHQEkuEd62-9L5ci3lyA _K5KHQUkuEd62-9L5ci3lyA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_K5T4QUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_K5T4RkkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_K5T4QkkuEd62-9L5ci3lyA" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_NK0A0EkuEd62-9L5ci3lyA" anchor="_NKqP0EkuEd62-9L5ci3lyA _NKqP0UkuEd62-9L5ci3lyA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_NK0A0UkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_NK0A1kkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_NK0A0kkuEd62-9L5ci3lyA" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_O5V_MUkuEd62-9L5ci3lyA" anchor="_O5M1QEkuEd62-9L5ci3lyA _O5V_MEkuEd62-9L5ci3lyA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_O5V_MkkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_O5V_N0kuEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_O5V_M0kuEd62-9L5ci3lyA" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_RHuiUEkuEd62-9L5ci3lyA" anchor="_RHkxUEkuEd62-9L5ci3lyA _RHkxUUkuEd62-9L5ci3lyA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_RHuiUUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_RHuiVkkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_RHuiUkkuEd62-9L5ci3lyA" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_TVW3gkkuEd62-9L5ci3lyA" anchor="_TVW3gEkuEd62-9L5ci3lyA _TVW3gUkuEd62-9L5ci3lyA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_TVW3g0kuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_TVgBc0kuEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_TVW3hEkuEd62-9L5ci3lyA" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_aa9oQEkuEd62-9L5ci3lyA" position="396,95" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_aa9oQUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_aa9oQkkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_bLnCEEkuEd62-9L5ci3lyA" position="192,96" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_bLnCEUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_bLnCEkkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_bzx1UEkuEd62-9L5ci3lyA" position="239,134" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_bzx1UUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_bz7mUEkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_cXMEYEkuEd62-9L5ci3lyA" position="28,135" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_cXMEYUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_cXV1YEkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_c65OYEkuEd62-9L5ci3lyA" position="189,178" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_c65OYUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_c65OYkkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_dgZIIEkuEd62-9L5ci3lyA" position="392,176" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_dgZIIUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_dgZIIkkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_eicbAEkuEd62-9L5ci3lyA" position="393,224" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eicbAUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_eimMAEkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_fRddIEkuEd62-9L5ci3lyA" position="188,223" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_fRddIUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_fRddIkkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_gLxwUEkuEd62-9L5ci3lyA" position="235,279" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_gLxwUUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_gLxwUkkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_hN-0MEkuEd62-9L5ci3lyA" position="25,275" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hN-0MUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_hN-0MkkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_h5ku4EkuEd62-9L5ci3lyA" position="243,316" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_h5ku4UkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_h5ku4kkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_icYhAEkuEd62-9L5ci3lyA" position="25,318" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_icYhAUkuEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_iciSAEkuEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_iDd8YEnLEd62-9L5ci3lyA" position="49,497" size="150,57">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_iDd8YUnLEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_iDejcEnLEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_7j4xwEtvEd62-9L5ci3lyA" position="23,373" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7j4xwUtvEd62-9L5ci3lyA" presentation="default">
+        <element href="DispenseCash.uml#_7kPXEEtvEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+  </diagrams>
+</diagrams:Diagrams>
