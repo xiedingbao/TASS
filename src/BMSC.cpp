@@ -21,9 +21,9 @@ Message::Message(string name_text, const char* id_text, const char* sender_text,
 }
 
 Process::Process(string name_text, const char* id_text, const char* msgIdStr){
-	assert(id_text!=NULL);
-	name=name_text;
-	id=id_text;
+	assert(id_text != NULL);
+	name = name_text;
+	id = id_text;
 	if(msgIdStr!=NULL){
 		char *content=(char *)malloc(strlen(msgIdStr));	
 		strcpy(content,msgIdStr);
@@ -39,6 +39,7 @@ Process::Process(string name_text, const char* id_text, const char* msgIdStr){
 void BMSC::initialize(){
 	vector<Message> tmp;
 	for(unsigned i=0;i<message_list.size();i++){
+		assert(2*i<message_spec_list.size());
 		string ms=message_spec_list[2*i];
 		for(unsigned j=0;j<message_list.size();j++){
 			if(ms == message_list[j].id){
