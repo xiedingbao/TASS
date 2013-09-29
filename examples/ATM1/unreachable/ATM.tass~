@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <TASS xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML">
-<Constraints>
-0&lt;=b1-a2&lt;=2&#13;
+<Constraints>0&lt;=b1-a2&lt;=2&#13;
 0&lt;=c2-b1&lt;=4&#13;
 5&lt;=d2-b1&lt;=60&#13;
 10&lt;=e1-d3&lt;=10&#13;
@@ -16,7 +15,7 @@
 0&lt;=k4-h5&lt;=4&#13;
 </Constraints>
 <CommunicationTime>
-ATM-User = 0.5&#13;
-ATM-Bank = 2
+ATM-User=0.5&#13;
+ATM-Bank=2
 </CommunicationTime>
 </TASS>

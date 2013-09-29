@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_yrfl8EnIEd62-9L5ci3lyA" activeDiagram="_yrfl8UnIEd62-9L5ci3lyA">
+  <model href="ConfiscateCard.uml#idInteraction"/>
+  <diagrams xmi:id="_yrfl8UnIEd62-9L5ci3lyA" position="0,0" size="100,100" name="ConfiscateCard" viewport="0,0">
+    <property xmi:id="_yr8R4EnIEd62-9L5ci3lyA" key="pageFormatName" value="A4"/>
+    <property xmi:id="_yr8R4UnIEd62-9L5ci3lyA" key="diagramWidth" value="840"/>
+    <property xmi:id="_yr8R4knIEd62-9L5ci3lyA" key="diagramHeight" value="1188"/>
+    <property xmi:id="_yr8R40nIEd62-9L5ci3lyA" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_yr8R5EnIEd62-9L5ci3lyA" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_yr8R5UnIEd62-9L5ci3lyA" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_yr8R5knIEd62-9L5ci3lyA" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_yr8R50nIEd62-9L5ci3lyA" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_yr8R6EnIEd62-9L5ci3lyA" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yrfl8knIEd62-9L5ci3lyA" presentation="cn.edu.nju.seg.jasmine.sequencediagram">
+      <element href="ConfiscateCard.uml#idInteraction"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_1Ux8YEnIEd62-9L5ci3lyA" position="32,40" size="100,300">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_1Ux8YUnIEd62-9L5ci3lyA" presentation="default">
+        <element href="ConfiscateCard.uml#_1UzKgEnIEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_8OrzcEnIEd62-9L5ci3lyA" position="40,54" size="20,50">
+        <anchorage xmi:id="_84u2AEnIEd62-9L5ci3lyA" position="12,24" graphEdge="_84wEIEnIEd62-9L5ci3lyA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8OrzcUnIEd62-9L5ci3lyA" presentation="default">
+          <element href="ConfiscateCard.uml#_8OtBkEnIEd62-9L5ci3lyA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_2UBL0EnIEd62-9L5ci3lyA" position="171,40" size="100,300">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2UBL0UnIEd62-9L5ci3lyA" presentation="default">
+        <element href="ConfiscateCard.uml#_2UCZ8EnIEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_74Bm8EnIEd62-9L5ci3lyA" position="40,50" size="20,50">
+        <anchorage xmi:id="_84uO8EnIEd62-9L5ci3lyA" position="5,28" graphEdge="_84wEIEnIEd62-9L5ci3lyA"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_74Bm8UnIEd62-9L5ci3lyA" presentation="default">
+          <element href="ConfiscateCard.uml#_74C1EEnIEd62-9L5ci3lyA"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_29Ev4EnIEd62-9L5ci3lyA" position="319,40" size="100,300">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_29Ev4UnIEd62-9L5ci3lyA" presentation="default">
+        <element href="ConfiscateCard.uml#_29F-AEnIEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_84wEIEnIEd62-9L5ci3lyA" anchor="_84uO8EnIEd62-9L5ci3lyA _84u2AEnIEd62-9L5ci3lyA">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_84wEIUnIEd62-9L5ci3lyA" presentation="default">
+        <element href="ConfiscateCard.uml#_84x5UEnIEd62-9L5ci3lyA"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_84wEIknIEd62-9L5ci3lyA" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="__uKLAEnIEd62-9L5ci3lyA" position="223,133" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__uKLAUnIEd62-9L5ci3lyA" presentation="default">
+        <element href="ConfiscateCard.uml#__uLZIEnIEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_AfqgcEnJEd62-9L5ci3lyA" position="31,133" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_AfqgcUnJEd62-9L5ci3lyA" presentation="default">
+        <element href="ConfiscateCard.uml#_AfrukEnJEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_tvwkYEnLEd62-9L5ci3lyA" position="65,364" size="150,25">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_tvwkYUnLEd62-9L5ci3lyA" presentation="default">
+        <element href="ConfiscateCard.uml#_tvxygEnLEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_YWBuUEuaEd62-9L5ci3lyA" position="32,210" size="50,20">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_YWBuUUuaEd62-9L5ci3lyA" presentation="default">
+        <element href="ConfiscateCard.uml#_YWC8cEuaEd62-9L5ci3lyA"/>
+      </semanticModel>
+    </contained>
+  </diagrams>
+</diagrams:Diagrams>

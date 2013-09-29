@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="idModel" name="StartTransModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="idPackage" name="StartTransPackage">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="idCollaboration" name="StartTransCollaboration">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="idInteraction" name="StartTrans">
+        <lifeline xmi:id="_1zwlgEemEd6ktd4Ef0KRtw" name="User" coveredBy="_tDWDUEenEd6ktd4Ef0KRtw _rUxBoEenEd6ktd4Ef0KRtw"/>
+        <lifeline xmi:id="_8fFOAEemEd6ktd4Ef0KRtw" name="ATM" coveredBy="_tDX4gEenEd6ktd4Ef0KRtw _rxO7MEenEd6ktd4Ef0KRtw"/>
+        <lifeline xmi:id="_-4WygEemEd6ktd4Ef0KRtw" name="Bank"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tDWDUEenEd6ktd4Ef0KRtw" name="MessageOccurrenceSpecification1" covered="_1zwlgEemEd6ktd4Ef0KRtw" event="_tDX4gUenEd6ktd4Ef0KRtw" message="_tDaUwEenEd6ktd4Ef0KRtw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tDX4gEenEd6ktd4Ef0KRtw" name="MessageOccurrenceSpecification2" covered="_8fFOAEemEd6ktd4Ef0KRtw" event="_tDX4gUenEd6ktd4Ef0KRtw" message="_tDaUwEenEd6ktd4Ef0KRtw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rxO7MEenEd6ktd4Ef0KRtw" name="BehaviorExecutionSpecification2" covered="_8fFOAEemEd6ktd4Ef0KRtw" start="_tDX4gEenEd6ktd4Ef0KRtw" finish="_tDX4gEenEd6ktd4Ef0KRtw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rUxBoEenEd6ktd4Ef0KRtw" name="BehaviorExecutionSpecification1" covered="_1zwlgEemEd6ktd4Ef0KRtw" start="_tDWDUEenEd6ktd4Ef0KRtw" finish="_tDWDUEenEd6ktd4Ef0KRtw"/>
+        <message xmi:id="_tDaUwEenEd6ktd4Ef0KRtw" name="Card" receiveEvent="_tDX4gEenEd6ktd4Ef0KRtw" sendEvent="_tDWDUEenEd6ktd4Ef0KRtw"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_tDX4gUenEd6ktd4Ef0KRtw" name="CallEvent1"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_2idpIEenEd6ktd4Ef0KRtw" name="a1" event="_tDaUwEenEd6ktd4Ef0KRtw"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_6o8WUEenEd6ktd4Ef0KRtw" name="a2" event="_tDaUwEenEd6ktd4Ef0KRtw" firstEvent="false"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_uN7OsEuaEd62-9L5ci3lyA" name="wa"/>
+  </packagedElement>
+</uml:Model>

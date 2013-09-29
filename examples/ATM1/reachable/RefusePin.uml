@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="idModel" name="RefusePinModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="idPackage" name="RefusePinPackage">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="idCollaboration" name="RefusePinCollaboration">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="idInteraction" name="RefusePin">
+        <lifeline xmi:id="_itL1UEmrEd62-9L5ci3lyA" name="User" coveredBy="_rxhjoEmrEd62-9L5ci3lyA _m-Zy4EmrEd62-9L5ci3lyA"/>
+        <lifeline xmi:id="_jfO9UEmrEd62-9L5ci3lyA" name="ATM" coveredBy="_netDkEmrEd62-9L5ci3lyA _rxg8kEmrEd62-9L5ci3lyA _mXzF4EmrEd62-9L5ci3lyA _mr8J4EmrEd62-9L5ci3lyA"/>
+        <lifeline xmi:id="_kNtM4EmrEd62-9L5ci3lyA" name="Bank" coveredBy="_nescgEmrEd62-9L5ci3lyA _ltrx4EmrEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nescgEmrEd62-9L5ci3lyA" name="MessageOccurrenceSpecification1" covered="_kNtM4EmrEd62-9L5ci3lyA" event="_netqoEmrEd62-9L5ci3lyA" message="_netqoUmrEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_netDkEmrEd62-9L5ci3lyA" name="MessageOccurrenceSpecification2" covered="_jfO9UEmrEd62-9L5ci3lyA" event="_netqoEmrEd62-9L5ci3lyA" message="_netqoUmrEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rxg8kEmrEd62-9L5ci3lyA" name="MessageOccurrenceSpecification3" covered="_jfO9UEmrEd62-9L5ci3lyA" event="_rxiKsEmrEd62-9L5ci3lyA" message="_rxiKsUmrEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rxhjoEmrEd62-9L5ci3lyA" name="MessageOccurrenceSpecification4" covered="_itL1UEmrEd62-9L5ci3lyA" event="_rxiKsEmrEd62-9L5ci3lyA" message="_rxiKsUmrEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_mXzF4EmrEd62-9L5ci3lyA" name="BehaviorExecutionSpecification2" covered="_jfO9UEmrEd62-9L5ci3lyA" start="_netDkEmrEd62-9L5ci3lyA" finish="_netDkEmrEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ltrx4EmrEd62-9L5ci3lyA" name="BehaviorExecutionSpecification1" covered="_kNtM4EmrEd62-9L5ci3lyA" start="_nescgEmrEd62-9L5ci3lyA" finish="_nescgEmrEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_m-Zy4EmrEd62-9L5ci3lyA" name="BehaviorExecutionSpecification4" covered="_itL1UEmrEd62-9L5ci3lyA" start="_rxhjoEmrEd62-9L5ci3lyA" finish="_rxhjoEmrEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_mr8J4EmrEd62-9L5ci3lyA" name="BehaviorExecutionSpecification3" covered="_jfO9UEmrEd62-9L5ci3lyA" start="_rxg8kEmrEd62-9L5ci3lyA" finish="_rxg8kEmrEd62-9L5ci3lyA"/>
+        <message xmi:id="_netqoUmrEd62-9L5ci3lyA" name="Invalid" receiveEvent="_netDkEmrEd62-9L5ci3lyA" sendEvent="_nescgEmrEd62-9L5ci3lyA"/>
+        <message xmi:id="_rxiKsUmrEd62-9L5ci3lyA" name="INV_pin_MSG" receiveEvent="_rxhjoEmrEd62-9L5ci3lyA" sendEvent="_rxg8kEmrEd62-9L5ci3lyA"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_netqoEmrEd62-9L5ci3lyA" name="CallEvent1"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_rxiKsEmrEd62-9L5ci3lyA" name="CallEvent2"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_uh0hAEmrEd62-9L5ci3lyA" name="g1" event="_netqoUmrEd62-9L5ci3lyA"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_vAGYcEmrEd62-9L5ci3lyA" name="g2" event="_netqoUmrEd62-9L5ci3lyA" firstEvent="false"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_vd7j8EmrEd62-9L5ci3lyA" name="g3" event="_rxiKsUmrEd62-9L5ci3lyA"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_v3HgAEmrEd62-9L5ci3lyA" name="g4" event="_rxiKsUmrEd62-9L5ci3lyA" firstEvent="false"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_qUI5sEuaEd62-9L5ci3lyA" name="wg"/>
+  </packagedElement>
+</uml:Model>

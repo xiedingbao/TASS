@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="idModel" name="GetPinModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="idPackage" name="GetPinPackage">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="idCollaboration" name="GetPinCollaboration">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="idInteraction" name="GetPin">
+        <lifeline xmi:id="_BwmnIEkJEd62-9L5ci3lyA" name="User" coveredBy="_IL2zUEkJEd62-9L5ci3lyA _Gvyd8EkJEd62-9L5ci3lyA"/>
+        <lifeline xmi:id="_DwA6IEkJEd62-9L5ci3lyA" name="ATM" coveredBy="_IL0-IEkJEd62-9L5ci3lyA _HE5LQEkJEd62-9L5ci3lyA"/>
+        <lifeline xmi:id="_E2L4AEkJEd62-9L5ci3lyA" name="Bank"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IL0-IEkJEd62-9L5ci3lyA" name="MessageOccurrenceSpecification1" covered="_DwA6IEkJEd62-9L5ci3lyA" event="_IL3aYEkJEd62-9L5ci3lyA" message="_IL5PkEkJEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IL2zUEkJEd62-9L5ci3lyA" name="MessageOccurrenceSpecification2" covered="_BwmnIEkJEd62-9L5ci3lyA" event="_IL3aYEkJEd62-9L5ci3lyA" message="_IL5PkEkJEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Gvyd8EkJEd62-9L5ci3lyA" name="BehaviorExecutionSpecification1" covered="_BwmnIEkJEd62-9L5ci3lyA" start="_IL2zUEkJEd62-9L5ci3lyA" finish="_IL2zUEkJEd62-9L5ci3lyA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HE5LQEkJEd62-9L5ci3lyA" name="BehaviorExecutionSpecification2" covered="_DwA6IEkJEd62-9L5ci3lyA" start="_IL0-IEkJEd62-9L5ci3lyA" finish="_IL0-IEkJEd62-9L5ci3lyA"/>
+        <message xmi:id="_IL5PkEkJEd62-9L5ci3lyA" name="REQ_pin" receiveEvent="_IL2zUEkJEd62-9L5ci3lyA" sendEvent="_IL0-IEkJEd62-9L5ci3lyA"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_IL3aYEkJEd62-9L5ci3lyA" name="CallEvent1"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_PyX4wEkJEd62-9L5ci3lyA" name="b1" event="_IL5PkEkJEd62-9L5ci3lyA"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_RCVEwEkJEd62-9L5ci3lyA" name="b2" event="_IL5PkEkJEd62-9L5ci3lyA" firstEvent="false"/>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_kxNcoEuaEd62-9L5ci3lyA" name="wb"/>
+  </packagedElement>
+</uml:Model>
