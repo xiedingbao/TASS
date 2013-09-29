@@ -19,8 +19,14 @@ void process_xml (const char* dir_name){
 	msc->initialize();
 	if(VERBOSE_LEVEL>1)
 		msc->print_info();
+	Node *target_node = msc->get_node(target);
+	if(target_node==NULL){
+		fprintf(stderr,"target %s does not exist in the graph\n",target.c_str());
+		delete msc;
+		return;
+	}
 	TimeAnalyze analyzer(msc);
-	analyzer.reach_check();
+	analyzer.reach_check(target_node);
 	delete msc;
 	xmlCleanupParser();
 }
@@ -71,7 +77,6 @@ static int parse_xml(const char* filename){
 }
 
 const char* get_prop(xmlNodePtr cur, const char* prop){
-//	printf("cur: %s,prop: %s,get:%s\n",cur->name,prop, (char *) xmlGetProp(cur, (const xmlChar *) prop));
 	return (char *) xmlGetProp(cur, (const xmlChar *) prop);
 }
 
@@ -87,7 +92,6 @@ static void parse_collaboration(xmlDocPtr doc, xmlNodePtr cur){
 				while(sub_cur!=NULL){
 					if(!xmlStrcmp(sub_cur->name, (const xmlChar *) "ownedComment")){
 						char *constraint = (char *)xmlNodeListGetString(doc, sub_cur->xmlChildrenNode->xmlChildrenNode,1);
-						//printf("bmsc constraint: %s\n",constraint);
 						bmsc.setConstraints(constraint);
 					}
 					else if(!xmlStrcmp(sub_cur->name, (const xmlChar *) "lifeline"))
@@ -179,18 +183,15 @@ void parse_tass(xmlDocPtr doc, xmlNodePtr cur){
 	while(cur!=NULL){
 		if(!xmlStrcmp(cur->name, (const xmlChar *) "Constraints")){
 				char *constraint = (char *)xmlNodeListGetString(doc, cur->xmlChildrenNode,1);
-			//	printf("msc constraint: %s\n",constraint);
 				msc->setConstraints(constraint);
 		}
 		else if(!xmlStrcmp(cur->name, (const xmlChar *) "CommunicationTime")){
 			char *constraint = (char *)xmlNodeListGetString(doc, cur->xmlChildrenNode,1);
-			//printf("communication time: %s\n", constraint);
 			msc->setCommunicationTime(constraint);
 		}
 		cur = cur->next;
 	}
 }
-
 
 const char* get_filename_ext(const char* filename){
 	const char *dot = strrchr(filename,'.');

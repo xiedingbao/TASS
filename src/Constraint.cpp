@@ -5,11 +5,11 @@ extern FILE *yyin;
 using namespace std;
 
 void parse_constraints(vector<Constraint>& constraints, const char* text){
-//	char text[]="ATM-USER=0.5";
-//	printf("parse constraint: %s",text1);
 	void *p=malloc(strlen(text));
 	strcpy((char *)p,text);
 	yyin = fmemopen(p, strlen(text), "r");
+	if(VERBOSE_LEVEL>1)
+		printf("parsing :%s\n",text);
 	yyparse(constraints);
 	free(p);
 }

@@ -10,6 +10,7 @@
 #include "TimeAnalyze.h"
 #include <libxml/xmlmemory.h>
 #include <libxml/parser.h>
+extern string target;
 
 void process_xml(const char* dirname);
 const char* get_filename_ext(const char* filename);

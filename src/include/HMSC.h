@@ -59,6 +59,7 @@ public:
 	void add_node(Node node){node_list.push_back(node);}
 	void add_bmsc(BMSC bmsc){bmsc_list.push_back(bmsc);}
 	void initialize();
+	Node * get_node(string name);
 	void print_info();
 	friend class TimeAnalyze;
 	friend class PathCheck;

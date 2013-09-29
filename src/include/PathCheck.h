@@ -13,9 +13,15 @@ class PathCheck{
 	z3::expr time_var(string name, int loop);
 	z3::expr constraint2expr(const Constraint& con, int loop);
 	void add_communication(BMSC* bmsc, int loop);
+	std::string con_name(unsigned start, unsigned end);
+	void get_constraint_index(std::string name,int& start,int& end);
+	void analyze_unsat_core(z3::expr_vector& core);
+	int path_start;
+	int path_end;
 public:
 	PathCheck(HMSC* msc);
-	bool path_check(std::vector<unsigned> path);	
+	bool path_check(std::vector<unsigned> path);
+	void get_IIS_path(int& small, int& max);
 };
 
 

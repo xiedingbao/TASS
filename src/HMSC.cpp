@@ -66,7 +66,13 @@ void HMSC::initialize(){
 	}
 }
 
-
+Node *HMSC::get_node(string name){
+	for(unsigned i=0;i<node_list.size();i++){
+	  if(node_list[i].name==name)
+		return &node_list[i];
+	}
+	return NULL;
+}
 /* show information of the high-level message sequence chart */
 void HMSC::print_info(){
 	printf("detail information of HMSC: %s\n",name.c_str());

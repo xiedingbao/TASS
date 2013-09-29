@@ -7,21 +7,23 @@ TimeAnalyze::TimeAnalyze(HMSC *msc):msc(msc),s(c){
 }
 
 /* reachability analysis of the HMSC */
-bool TimeAnalyze::reach_check(){
+bool TimeAnalyze::reach_check(Node *target_node){
 	assert(msc->initial_node!=NULL && msc->final_node!=NULL);
-	encode_graph();
+	encode_graph(target_node);
 	unsigned num_of_path=0;
 	PathCheck verify(msc);	
 	while(s.check() == sat){
 		num_of_path++;
 		vector<unsigned> path=decode_path();		
-		if(VERBOSE_LEVEL>1)
+		if(VERBOSE_LEVEL>0)
 			printf("Checking %s\n",(path_str(path)).c_str());
 		if(verify.path_check(path)){
 			printf("The target is reachable\nPath: %s\n",path_str(path).c_str());
 			return true;
 		}
-		block_path(path);
+		int start,end;
+		verify.get_IIS_path(start, end);
+		block_path(path, start, end);
 	}
 	printf("The target is not reachable\nNumber of path checked: %d\n",num_of_path);
 	return false;
@@ -29,7 +31,7 @@ bool TimeAnalyze::reach_check(){
 
 
 /* encode the graph structure of HMSC in terms of SAT formulas */
-void TimeAnalyze::encode_graph(){
+void TimeAnalyze::encode_graph(Node *target_node){
 	//initial condition
 	for(unsigned i=0;i<msc->node_list.size();i++){
 		if(msc->initial_node == &msc->node_list[i])
@@ -64,21 +66,29 @@ void TimeAnalyze::encode_graph(){
 			s.add(implies(current,next));
 		}
 	}
-	//target condition
-	expr target=node_var(msc->final_node,0);
+	//target and final condition
+	expr final = node_var(msc->final_node,0);
+	expr target_exp = node_var(target_node,0);
 	for(int i=1;i<=bound;i++){
-		target=target || node_var(msc->final_node,i);
+		final = final || node_var(msc->final_node,i);
+		target_exp = target_exp || node_var(target_node,i);
 	}
-	s.add(target);
+	s.add(final);
+	s.add(target_exp);
 
 }
 
 /* block a path in the graph */
-void TimeAnalyze::block_path(vector<unsigned> path){
-	for(unsigned i=0;i<bound-path.size()+2;i++){
+void TimeAnalyze::block_path(vector<unsigned> path, int start, int end){
+	vector<unsigned> IIS_path;
+	for(int i=0;i<path.size();i++)
+	  IIS_path.push_back(path[i]);
+	if(VERBOSE_LEVEL>0)
+	  printf("IIS path: %s\n", path_str(IIS_path).c_str());
+	for(unsigned i=0;i<bound-IIS_path.size()+2;i++){
 		expr exp(c);
-		for(unsigned j=0;j<path.size();j++){
-			expr node=node_var(&msc->node_list[path[j]],i+j);
+		for(unsigned j=0;j<IIS_path.size();j++){
+			expr node=node_var(&msc->node_list[IIS_path[j]],i+j);
 			if(j==0)
 			  exp=!node;
 			else

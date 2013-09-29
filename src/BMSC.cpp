@@ -102,13 +102,13 @@ void BMSC::generateOrderPair(){
 		order_list.push_back(OrderPair(message_list[i].receive_event,final_event));
 	}
 	/* Controbility */
-	for(unsigned i=message_list.size()-1;i>0;i--){
-		for(unsigned j=i-1; j>0; j--){
+	for(int i=message_list.size()-1;i>0;i--){
+		for(int j=i-1; j>=0; j--){
 			if(message_list[i].sender_name == message_list[j].sender_name){
 				order_list.push_back(OrderPair(message_list[j].send_event,message_list[i].send_event));
 				break;
 			}
-			if(message_list[i].sender_name==message_list[j].receiver_name){
+			if(message_list[i].sender_name == message_list[j].receiver_name){
 				order_list.push_back(OrderPair(message_list[j].receive_event,message_list[i].send_event));
 				break;
 			}

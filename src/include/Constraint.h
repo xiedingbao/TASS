@@ -9,6 +9,7 @@
 //extern void yyparse();
 //extern FILE *yyin;
 
+extern int VERBOSE_LEVEL;
 enum Operator{LT,LE,GT,GE,EQ};
 class Variable{
 	std::string name;

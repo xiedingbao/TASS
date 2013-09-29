@@ -8,7 +8,8 @@
 int VERBOSE_LEVEL=0;     //0:silent 1:some 2:all
 bool asynchronous=false; //asynchronous or synchronous concatenation (default: synchronous) 
 int inputbound;
-
+bool st = false;
+string target;
 static void help_message();
 static void welcome_message();
 static void info_message();
